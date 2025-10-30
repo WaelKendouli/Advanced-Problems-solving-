@@ -2,5 +2,41 @@ Problem 1 : Use a stack to implement a browser's back button functionality.
 Problem 2 : Convert a decimal number to binary using a stack.
 Problem 3 : Implement undo functionality in a calculator.
 4 : Use a queue to manage printer jobs.
+******************************************************************  
+5 : Traffic Signal System Simulation
+Problem: Simulate vehicles waiting at a traffic signal.
+
+Vehicles are processed in the order they arrive (FIFO), and after processing, the next vehicle moves up.
+
+Vehicles arrive in the following order:
+
+"Car 1";
+"Truck 1"
+"Bike 1"
+"Bus 1"
 
 
+
+Output:
+
+Traffic Signal Simulation Started...
+
+
+Car 1 has passed the signal.
+
+Vehicles waiting: Truck 1, Bike 1, Bus 1
+
+Truck 1 has passed the signal.
+
+Vehicles waiting: Bike 1, Bus 1
+
+Bike 1 has passed the signal.
+
+Vehicles waiting: Bus 1
+
+Bus 1 has passed the signal.
+
+No vehicles waiting.
+
+Traffic Signal Simulation Ended.
+*********************************************************************************
