@@ -80,4 +80,24 @@ Ticketing System Simulation Ended
 No vehicles waiting.
 
 Traffic Signal Simulation Ended.
-*********************************************************************************
+**********************************  Problem 6  ********************************************
+Implementing Simple Backtracking
+Problem: Use a stack for backtracking My Day.
+
+Output:
+
+Start -> Go to Gaz Station -> Go to Super Market -> Go To Work -> Go to Cafe -> Go Home.
+
+Backtracking...
+
+Back to: Go Home
+
+Back to: Go to Cafe
+
+Back to: Go To Work
+
+Back to: Go to Super Market
+
+Back to: Go to Gaz Station
+
+Back to: Start
