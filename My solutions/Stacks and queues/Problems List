@@ -35,6 +35,47 @@ Bike 1 has passed the signal.
 Vehicles waiting: Bus 1
 
 Bus 1 has passed the signal.
+**********************************************************************************
+Ticketing System Simulation
+Problem: Simulate a ticketing system where customers are served in the order they arrive. When a customer’s ticket is processed, the next ticket is queued for service.
+
+Output:
+
+Ticket 101 issued.
+
+Ticket 102 issued.
+
+Ticket 103 issued.
+
+Ticket 104 issued.
+
+Ticket 105 issued.
+
+
+Ticketing System Simulation Started...
+
+Processing Ticket: 101
+
+Remaining Tickets: 102, 103, 104, 105
+
+Processing Ticket: 102
+
+Remaining Tickets: 103, 104, 105
+
+Processing Ticket: 103
+
+Remaining Tickets: 104, 105
+
+Processing Ticket: 104
+
+Remaining Tickets: 105
+
+Processing Ticket: 105
+
+No more tickets in the queue.
+
+Ticketing System Simulation Ended
+
 
 No vehicles waiting.
 
