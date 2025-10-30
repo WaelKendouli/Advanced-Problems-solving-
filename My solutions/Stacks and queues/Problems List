@@ -80,7 +80,7 @@ Ticketing System Simulation Ended
 No vehicles waiting.
 
 Traffic Signal Simulation Ended.
-**********************************  Problem 6  ********************************************
+**********************************  Problem 7  ********************************************
 Implementing Simple Backtracking
 Problem: Use a stack for backtracking My Day.
 
@@ -101,3 +101,16 @@ Back to: Go to Super Market
 Back to: Go to Gaz Station
 
 Back to: Start
+
+******************************************** Problem 8 *********************************************
+Task Scheduling
+Task Scheduling
+Problem: Given a set of tasks with a specific order, simulate the order of execution using a queue. Example:
+
+Input: ["Task1", "Task2", "Task3", "Task4"]
+Output: Execute tasks in the order they appear.
+Key Points:
+
+Enqueue tasks in the given order.
+Dequeue and process them one at a time.
+
