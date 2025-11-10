@@ -27,38 +27,38 @@ namespace Problem20Course23
     {
         public class PriorityQueue
         {
-            private Queue<int> queue = new Queue<int>();
+            
 
-            private SortedDictionary<int, int> dicSortedElements = new SortedDictionary<int, int>();
+            private SortedDictionary<int, Queue<int>> queue = new SortedDictionary<int, Queue<int>>();
 
-            private void _FillQueueWithPrioritizedContent(int number , int priority)
-            {
+           
 
-                dicSortedElements.Add(priority, number);
 
-                while (queue.Count>0)
-                {
-                    queue.Dequeue();//clearing the queue first
-                }
-                int MaxPriority = dicSortedElements.Max(n => n.Key);
-                while (MaxPriority>0)
-                {
-                    if (dicSortedElements.ContainsKey(MaxPriority))
-                    {
-                    queue.Enqueue(dicSortedElements[MaxPriority]);
-                    }
-                    MaxPriority--;
-                }
-
-            }
             public void Enqueue(int number , int priority)
             {
-                _FillQueueWithPrioritizedContent(number, priority);
+                if (!queue.ContainsKey(priority))
+                {
+                    queue[priority] = new Queue<int>();
+                }
+                queue[priority].Enqueue(number);
+
+
             }
 
-            public int Dequeue()
+            public int? Dequeue()
             {
-                return queue.Dequeue();
+                if (queue.Count==0)
+                {
+                    return null;
+                }
+
+                int HighestPriority = queue.Keys.Max();
+                int value = queue[HighestPriority].Dequeue();
+                if (queue[HighestPriority].Count == 0)
+                {
+                    queue.Remove(HighestPriority);
+                }
+                return value;
             }
 
         }
