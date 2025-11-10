@@ -1,0 +1,7 @@
+D:\Problem Solving Advanced Level\Stacks And Queues\Problem29Course23\bin\Debug\Problem29Course23.exe.config
+D:\Problem Solving Advanced Level\Stacks And Queues\Problem29Course23\bin\Debug\Problem29Course23.exe
+D:\Problem Solving Advanced Level\Stacks And Queues\Problem29Course23\bin\Debug\Problem29Course23.pdb
+D:\Problem Solving Advanced Level\Stacks And Queues\Problem29Course23\obj\Debug\Problem29Course23.csproj.AssemblyReference.cache
+D:\Problem Solving Advanced Level\Stacks And Queues\Problem29Course23\obj\Debug\Problem29Course23.csproj.CoreCompileInputs.cache
+D:\Problem Solving Advanced Level\Stacks And Queues\Problem29Course23\obj\Debug\Problem29Course23.exe
+D:\Problem Solving Advanced Level\Stacks And Queues\Problem29Course23\obj\Debug\Problem29Course23.pdb
